@@ -53,6 +53,7 @@ public class AppDelegate : MauiUIApplicationDelegate, IUNUserNotificationCenterD
         Firebase.Core.App.Configure();
 
         // if the code above doesn't work, we can set it manually like code below:
+        // you can find this information in GoogleService-Info.plist
 
         //var options = new Firebase.Core.Options("[GOOGLE_APP_ID]", "[GCM_SENDER_ID]");
         //options.ApiKey = "[API_KEY]";
